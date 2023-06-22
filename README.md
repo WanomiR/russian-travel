@@ -1,6 +1,6 @@
 # Проект: Путешествие по России
 
-[Ссылка на проект](https://wanomir.github.io/russian-travel/)
+[Ссылка на проект](https://wanomir.github.io/russian-travel/index.html)
 
 ### Обзор
 * Интро
