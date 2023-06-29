@@ -1,3 +1,10 @@
 @import url(../vendor/normalize.css);
-@import url(../vendor/fonts.css);
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
 @import url(../blocks/page/page.css);
+
+/* header */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__lang/header__lang.css);
+@import url(../blocks/header/__lang-link/header__lang-link.css);
+
