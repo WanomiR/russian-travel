@@ -1,0 +1,8 @@
+.places__place {
+  margin-bottom: 80px;
+  display: grid;
+  grid-template: 
+  "title website" min-content 
+  "image description" fit-content(460px) / fit-content(460px) auto;
+  gap: 48px 40px;
+}
