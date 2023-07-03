@@ -1,0 +1,13 @@
+.cover {
+  margin: 92px auto;
+  max-width: 1184px;
+  height: 740px;
+  background-image: url(../../images/cover-trains.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
