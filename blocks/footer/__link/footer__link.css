@@ -8,3 +8,8 @@
   line-height: 18px;
   font-weight: 400;
 }
+
+.footer__link:hover {
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
