@@ -1,8 +1,28 @@
 .photo-grid {
   margin: 92px auto;
   max-width: 1184px;
-  max-height: 671px;
   display: grid;
   grid-template: repeat(3, 1fr) / repeat(4, 1fr);
   gap: 16px;
+}
+
+@media screen and (max-width: 1024px) {
+  .photo-grid {
+    grid-template: repeat(4, 1fr) / repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .photo-grid {
+    grid-template: repeat(6, 1fr) / repeat(2, 1fr);
+    margin: 88px 24px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .photo-grid {
+    grid-template: repeat(12, 1fr) / 1fr;
+    margin: 64px 16px;
+    gap: 12px;
+  }
 }
