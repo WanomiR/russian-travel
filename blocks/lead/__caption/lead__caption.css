@@ -8,3 +8,15 @@
   letter-spacing: 1.5px;
   align-self: flex-start;
 }
+
+@media screen and (max-width: 1024px) {
+  .lead__caption {
+    margin-left: min(calc(984px - 100%), 24px);
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .lead__caption {
+    margin-left: 16px;
+  }
+}
