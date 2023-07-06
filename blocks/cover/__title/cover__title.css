@@ -9,3 +9,19 @@
   font-weight: 900;
   z-index: 1;
 }
+
+@media screen and (max-width: 600px) {
+  .cover__title {
+    font-size: 60px;
+    line-height: 64px;
+    max-width: 440px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .cover__title {
+    font-size: 32px;
+    line-height: 35px;
+    margin: 16px;
+  }
+}
