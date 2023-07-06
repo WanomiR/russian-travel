@@ -1,5 +1,5 @@
 .photo-grid {
-  margin: 92px auto;
+  margin: 92px 48px;
   max-width: 1184px;
   display: grid;
   grid-template: repeat(3, 1fr) / repeat(4, 1fr);
@@ -9,6 +9,7 @@
 @media screen and (max-width: 1024px) {
   .photo-grid {
     grid-template: repeat(4, 1fr) / repeat(3, 1fr);
+    margin: 92px 48px;
   }
 }
 

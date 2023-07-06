@@ -4,3 +4,10 @@
   grid-area: website;
   align-self: flex-end;
 }
+
+@media screen and (max-width: 425px) {
+  .places__website {
+    align-self: flex-start;
+    margin-left: 16px;
+  }
+}

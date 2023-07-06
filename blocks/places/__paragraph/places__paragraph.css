@@ -8,5 +8,22 @@
 }
 
 .places__paragraph:not(:last-of-type) {
-  margin-bottom: 26px; 
+  margin-bottom: 27px; 
+}
+
+@media screen and (max-width: 768px) {
+  .places__paragraph {
+    font-size: 16px;
+  }
+
+  .places__paragraph:not(:last-of-type) {
+    margin-bottom: 25px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .places__paragraph {
+    font-size: 16px;
+  }
+  
 }
