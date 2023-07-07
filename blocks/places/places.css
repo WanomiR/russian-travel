@@ -1,12 +1,8 @@
 .places {
-  max-width: 984px;
-  margin: 92px auto;
-}
-
-@media screen and (max-width: 1024px) {
-  .places {
-    margin: 92px 48px;
-  }
+  margin: 92px 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 @media screen and (max-width: 768px) {

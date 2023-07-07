@@ -1,4 +1,5 @@
 .places__place {
+  max-width: 984px;
   margin-bottom: 80px;
   display: grid;
   grid-template: 
