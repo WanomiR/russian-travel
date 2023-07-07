@@ -1,6 +1,16 @@
 .cover {
   margin: 92px auto;
   max-width: 1184px;
+  height: 740px;
+  background-image: url(../../images/cover-trains.jpg);
+  background-size: cover;
+
+}
+
+@media screen and (max-width: 1184px) {
+  .cover {
+    height: calc(100vw * .625);
+  }
 }
 
 @media screen and (max-width: 768px) {
