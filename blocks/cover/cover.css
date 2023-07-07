@@ -4,12 +4,11 @@
   height: 740px;
   background-image: url(../../images/cover-trains.jpg);
   background-size: cover;
-
 }
 
 @media screen and (max-width: 1184px) {
   .cover {
-    height: calc(100vw * .625);
+    height: calc(100vw * 5/8);
   }
 }
 
