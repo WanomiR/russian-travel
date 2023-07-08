@@ -1,6 +1,5 @@
 .places__place {
   max-width: 984px;
-  margin-bottom: 80px;
   display: grid;
   grid-template: 
   "title website" min-content 
@@ -12,14 +11,13 @@
   .places__place {
   grid-template: 
   "title website" min-content 
-  "image description" fit-content(calc(100vw / 2.3)) / fit-content(calc(100vw / 2.3)) auto;
+  "image description" fit-content(calc(100vw * .43)) / fit-content(calc(100vw * .43)) auto;
   gap: 48px 32px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .places__place {
-    margin-bottom: 73px;
     grid-template:
     "title website" min-content 
     "image description" fit-content(340px) / fit-content(340px) auto;
@@ -27,9 +25,8 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 650px) {
   .places__place {
-    margin: 50px 0;
     display: flex;
     flex-direction: column;
     gap: 32px;

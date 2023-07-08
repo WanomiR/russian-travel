@@ -1,5 +1,6 @@
 .places__image {
   grid-area: image;
-  max-width: 100%;
+  width: 100%;
+  max-width: 460px;
   object-fit: cover;
 }

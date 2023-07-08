@@ -5,9 +5,14 @@
   align-self: flex-end;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 650px) {
   .places__website {
     align-self: flex-start;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .places__website {
     margin-left: 16px;
   }
 }
